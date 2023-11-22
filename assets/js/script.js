@@ -1,26 +1,26 @@
 // Array to store quiz questions and their details
 const questions = [
-    {
+  {
+    question: "Which of the following keywords is used to define a variable in Javascript?",
+    choices: ["4 .var", "3. let", "2. Both 4 and 3", "1. None of the above"],
+    correctAnswer: "2. Both 4 and 3"
+  },
+  {
+    question: "Which of the following methods is used to access HTML elements using Javascript?",
+    choices: ["4. getElementbyId()", "3. getElemenTByClass()", "2.  Both 4 and 3", "1. None of the above"],
+    correctAnswer: "4. getElementbyId()"
+  },
+  {
+      question: "How can a datatype be declared to be a constant type?",
+      choices: ["4. const", "3. var", "2. let", "1. constant"],
+      correctAnswer: "4. const"
+  },
+  {
       question: "Which of the following keywords is used to define a variable in Javascript?",
-      choices: ["4 .var", "3. let", "2. Both 4 and 3", "1. None of the above"],
-      correctAnswer: "Both A and B"
-    },
-    {
-      question: "Which of the following methods is used to acces HTML elements using Javascript?",
-      choices: ["4. getElementbyId()", "3. getElemenTByClass()", "2.  Both 4 and 3", "1. None of the above"],
-      correctAnswer: "JavaScript"
-    },
-    {
-        question: "How can a datatype be declared to be a constant type?",
-        choices: ["4. const", "3. var", "2. let", "1. constant"],
-        correctAnswer: "const"
-    },
-    {
-        question: "Which of the following keywords is used to define a variable in Javascript?",
-        choices: ["4. var", "3. let", "2. Both A and B", "1. None of the above"],
-        correctAnswer: "Both 4 and 2"
-    },
-  ];
+      choices: ["4. var", "3. let", "2. Both 4 and 3", "1. None of the above"],
+      correctAnswer: "2. Both 4 and 3"
+  },
+];
   
   // Variables to track quiz state
   let currentQuestionIndex = 0;
